@@ -6,6 +6,8 @@ A tool to perform quick normal mode analysis on a PDB file
 according to the method first proposed by
 [Tirion et al.](https://doi.org/10.1006/jmbi.1993.1135).
 
+Please cite: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6888913.svg)](https://doi.org/10.5281/zenodo.6888913)
+
 ### Compiling the Program
 
 The program was almoast compleatly ( by exercise ) 
