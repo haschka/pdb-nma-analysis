@@ -10,15 +10,15 @@ Please cite: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6888913.svg)](h
 
 ### Compiling the Program
 
-The program was almoast compleatly ( by exercise ) 
+The program was almost completely ( by exercise ) 
 written using the SSE2 + SSSE3 intrinsics, and as 
 such requires an intel/amd processor supporting these 
 instructions to work. Anything built after 2008 basically
 should do it.
 
 The program further needs the lapack libraries. On 
-a contemporarian Debian Based system you should be able to obtain
-all requiremets using:
+a contemporary Debian Based system you should be able to obtain
+all requirements using:
 ```
 sudo apt-get install build-essential liblapack-dev
 ```
@@ -30,7 +30,7 @@ obtaining the nma binary.
 
 ### Performing Normal Mode Analysis
 
-The nma tool is pretty self explenatory. Its arguments are:
+The nma tool is pretty self explanatory. Its arguments are:
 ```
 file: pdb file 
    k: spring constant in atom - atom interaction potential 
@@ -58,3 +58,7 @@ Each mode can be visualized for instance with
 [VMD](https://www.ks.uiuc.edu/Research/vmd/)
 using the Van der Waals representation
 in this program you might get nice movies of each mode. 
+
+### History
+The program was in its original form written in 2009 as part of Thomas Haschka's 
+Master Theses
