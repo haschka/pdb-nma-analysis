@@ -8,6 +8,8 @@ according to the method first proposed by
 
 Please cite: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6888913.svg)](https://doi.org/10.5281/zenodo.6888913)
 
+This tool now has a youtube tutorial: [https://youtu.be/jUBWMLQYkKk](https://youtu.be/jUBWMLQYkKk)
+
 ### Compiling the Program
 
 The program was almost completely ( by exercise ) 
@@ -43,7 +45,7 @@ in example if you download the PDB file
 [1uqq](https://files.rcsb.org/download/1QUU.pdb)
 you may perform nma analysis in typing:
 ```
-./nma 1quu.pdb 0.5 15 9
+./nma 1quu.pdb pdb 0.5 15 9
 ```
 which should yield the files:
 ```
